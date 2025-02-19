@@ -1,0 +1,93 @@
+div{
+    
+    .center-img {
+        display: block;
+        margin: 0 auto;
+    }
+    img {
+        width: 200px;
+        height: 150px;
+      }
+      .round-btn {
+        width: 70px;
+        height: 20px;
+        border-radius: 20%; 
+        background-size: cover;
+        background-position: center;
+        border: none;
+        cursor: pointer;
+    }
+    
+      
+    
+      
+}
+.card {
+    background: rgb(209, 229, 118);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+.button-container {
+    margin-top: 10px;
+}
+
+.nav-button {
+    background-color: #22ff00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    /* transition: background 0.3s; */
+}
+
+.nav-button:hover{
+    background-color: #48ff15;
+}
+body {
+    background-color: bisque;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  .back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #f0a500;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  .back-button:hover {
+    background-color: #d48a00;
+  }
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
